@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="boardview.BoardView" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/boardview/BoardView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="145" y="246"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="boardview.ChessFX" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/boardview/ChessFX.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="596" y="159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="boardview.Tile" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/boardview/Tile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-99" y="743"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="boardview.TileView" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/boardview/TileView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-111" y="1007"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="gamecontrol.AIChessController" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/gamecontrol/AIChessController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="896" y="166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="gamecontrol.ChessController" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/gamecontrol/ChessController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1538" y="367"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="7" language="java" name="gamecontrol.ChessState" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/gamecontrol/ChessState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1911" y="344"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="8" language="java" name="gamecontrol.GameController" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/gamecontrol/GameController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="606" y="493"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="gamecontrol.GameState" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/gamecontrol/GameState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1910" y="139"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="model.Board" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/Board.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-426" y="-37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="model.Move" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/Move.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-549" y="1343"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="model.Piece" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/Piece.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="358" y="791"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" name="model.PieceType" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/PieceType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1618" y="1446"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="model.Position" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/Position.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-120" y="1281"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="15" language="java" name="model.Side" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/Side.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="915" y="492"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="16" language="java" name="model.SideHasNoMovesException" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/SideHasNoMovesException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1744" y="1136"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="model.chess.Bishop" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/Bishop.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="844" y="798"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="18" language="java" name="model.chess.ChessPiece.ChessPieceType" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/ChessPiece.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1447" y="1078"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="19" language="java" name="model.chess.ChessPiece" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/ChessPiece.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1166" y="896"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="model.chess.ChessUtils" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/ChessUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1262" y="1624"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="model.chess.King" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/King.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="544" y="1048"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="model.chess.Knight" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/Knight.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="919" y="1081"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="model.chess.Pawn" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/Pawn.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="991" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="model.chess.Queen" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/Queen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1290" y="1302"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="model.chess.Rook" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/Rook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1099" y="1422"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="model.chess.PawnCaptureMove" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/PawnCaptureMove.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-120" y="1600"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="model.chess.PromotionMove" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/PromotionMove.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="395" y="1576"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="model.chess.CastlingMove" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/CastlingMove.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-463" y="1726"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="29" language="java" name="model.chess.CastlingMove.CastlingType" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/CastlingMove.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-505" y="1910"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="30" language="java" name="model.chess.ChessBoard" project="JavaFX-Chess-Game" 
+    file="/JavaFX-Chess-Game/main/java/model/chess/ChessBoard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-430" y="268"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="31">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="32" name="tiles"/>      
+      <multiplicity id="33" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="34">    
+    <bendpoint x="166" y="1496"/>    
+    <bendpoint x="-290" y="1476"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="35">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="36">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="37" name="kings"/>      
+      <multiplicity id="38" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="40" name="lastMovedPiece"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="43" name="destination"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="46">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="47" name="controller"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="50">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="51" name="castlingType"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="54" name="mySide"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="57">    
+    <bendpoint x="-366" y="860"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="58" name="blackPositions"/>      
+      <multiplicity id="59" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="60">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="61">    
+    <bendpoint x="704" y="864"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="62">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="63" name="board"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="65">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <nesting id="66">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="29"/>  
+  </nesting>  
+  <realization id="67">    
+    <bendpoint x="860" y="356"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="68">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="69" name="controller"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="72" name="lastMove"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="74">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="75" name="enPassantCapturePosition"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="78" name="currentState"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="80">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="81" name="pos"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="83">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="84">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="85" name="promotingTo"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <bendpoint x="902" y="662"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="88" name="selectedPiece"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="90">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="91">    
+    <bendpoint x="-324" y="818"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="92" name="whitePositions"/>      
+      <multiplicity id="93" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <bendpoint x="-320" y="1218"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="95" name="start"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="97">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="99">    
+    <bendpoint x="252" y="-212"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="100" name="board"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="103" name="side"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="106">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="107" name="type"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="109">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="110" name="currentSide"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="113" name="board"/>      
+      <multiplicity id="114" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="115">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <generalization id="116">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="117">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="118">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="119" name="origin"/>      
+      <multiplicity id="120" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

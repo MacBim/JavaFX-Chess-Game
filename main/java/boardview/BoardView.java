@@ -38,7 +38,6 @@ import java.util.Optional;
  */
 public class BoardView {
 
-    /* You may add more instance data if you need it */
     protected GameController controller;
     private GridPane gridPane;
     private Tile[][] tiles;
@@ -80,7 +79,6 @@ public class BoardView {
                 return;
             }
 
-            // Don't change the code above this :)
             // call firstClick or secondClick, depending on which it is
             try {
                 if (!this.click) {

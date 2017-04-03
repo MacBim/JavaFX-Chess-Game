@@ -56,8 +56,8 @@ public abstract class ChessPiece implements Piece {
     }
 
     public enum ChessPieceType implements PieceType {
-        PAWN("♟", "♙"), ROOK("♜", "♖"), KNIGHT("♞", "♘"),
-        BISHOP("♝", "♗"), QUEEN("♛", "♕"), KING("♚", "♔");
+        PAWN("BP", "WP"), ROOK("BR", "WR"), KNIGHT("BK", "WK"),
+        BISHOP("BB", "WB"), QUEEN("BQ", "WQ"), KING("BKi", "WKi");
 
         private String black;
         private String white;

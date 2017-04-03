@@ -24,7 +24,6 @@ import javafx.scene.layout.Pane;
 /**
  * Main class for the chess application
  * Sets up the top level of the GUI
- * @author Gustavo
  * @version
  */
 public class ChessFX extends Application {
@@ -62,18 +61,8 @@ public class ChessFX extends Application {
         HBox play = new HBox(10);
         play.getChildren().addAll(reset, playAI, sideStatus, state);
 
-        Button host = new Button("Host");
-        host.setOnMouseClicked(makeHostListener());
-        TextField textField = new TextField();
-        textField.setPromptText("Enter Host IP");
-        Button join = new Button("Join");
-        join.setOnMouseClicked(makeJoinListener(textField));
-        HBox online = new HBox(10);
-        online.getChildren().addAll(host, ipTxt, textField, join);
-
-
         VBox main = new VBox(10);
-        main.getChildren().addAll(root, play, online);
+        main.getChildren().addAll(root, play);
 
         Scene scene = new Scene(main, 650, 600);
         primaryStage.setScene(scene);
